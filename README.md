@@ -1,23 +1,89 @@
-# Ludo Duel
+# 🎲 Ludo Dual
 
-A simple, local two-player Ludo game built with Flutter. Red and Green take turns rolling one dice and moving four tokens.
-The board shows all four traditional Ludo colors; only Red and Green are playable.
+<h3 align="center">🎮 Roll the Dice • Challenge Your Friend • Win the Game!</h3>
 
-## Run the app
+<p align="center">
+  A fun and interactive two-player Ludo game featuring a colorful board, dice rolling, and classic Ludo gameplay.
+</p>
 
-1. Install Flutter and connect a device, start an emulator, or use a desktop target.
-2. From this project folder, run `flutter pub get`.
-3. Run `flutter run`.
+---
 
-## How to play
+## 📌 About The Project
 
-- Tap **Roll dice** on your turn.
-- A token can leave its home only when you roll a 6.
-- After rolling, tap one of your highlighted tokens to move it.
-- A roll that would move a token past the finish is not a legal move.
-- Rolling a 6 gives you another turn. If you have no legal move, the turn passes.
-- The first player to bring all four tokens home wins. Tap the refresh button to restart.
+**Ludo Dual** is a two-player digital version of the classic Ludo board game. Players compete against each other using Red and Green tokens, rolling dice to move their pieces across the board. The goal is to move all four tokens safely to the center and win the game.
 
-## Implementation
+## ✨ Features
 
-The game screen is a `StatefulWidget`; `setState()` updates the dice, turn, token positions, and status. A timer animates the rolling dice, `AnimatedContainer` animates token changes, and a `CustomPainter` draws the board and dice pips. The game uses a simplified two-player ruleset with no token captures.
+- 🎮 Two-player gameplay (Red vs Green)
+- 🎲 Interactive dice rolling
+- 🏠 Four tokens for each player
+- 🚀 Roll a 6 to start moving tokens
+- 🏁 Reach the center to win
+- 🔄 Reset game functionality
+- 🎨 Clean and colorful game interface
+- 📊 Player turn and progress indicators
+
+## 🎯 How To Play
+
+1. Start the game with two players: Red and Green.
+2. Roll the dice to begin.
+3. Get a 6 to bring a token onto the board.
+4. Move your tokens according to the dice number.
+5. Reach the center with all four tokens to win!
+
+## 🛠️ Technologies Used
+
+- Flutter
+- Dart
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Jawad-Abdullah/ludo_dual.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd ludo_dual
+```
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the application:
+
+```bash
+flutter run
+```
+
+## 📸 Game Preview
+
+<p align="center">
+  <img src="screenshots/ludo-dual.png" alt="Ludo Dual Game Interface" width="750"/>
+</p>
+
+## 🎓 Project Objective
+
+This project was developed to practice application development, game logic implementation, interactive UI design, and programming concepts using Flutter and Dart.
+
+## 👨‍💻 Developer
+
+**Jawad Abdullah Khan**
+
+GitHub: [Jawad-Abdullah](https://github.com/Jawad-Abdullah)
+
+---
+
+<p align="center">
+  ⭐ If you like this project, don't forget to give it a star!
+</p>
+
+<p align="center">
+  Made with ❤️
+</p>
